@@ -31,7 +31,7 @@ const query = graphql`
 const projects = [
   {
     description: `A simple python program to take image of a person as input and gives the classification as output. There are six broad classes of faces shapes i.e Rectangular,
-     Oval, Traingular, square, Oblong, Circular. The program reads the image and detects edges. Using those image it finds the pivot points .
+     Oval, Triangular, Square, Oblong, Circular. The program reads the image and detects edges. Using those image it finds the pivot points .
     Measuring the distance between specefic points and comparing them will get the resultant shape`,
     title: `Physiogamy: Detection of face shapes`,
     github: `https://github.com/arnabcode`,
@@ -48,7 +48,7 @@ const projects = [
     url: "",
   },
   {
-    description: `Development of an Authoring System using JavaFX .A software to give an instructor the 
+    description: `Development of an Authoring System using JavaFX. A software to give an instructor the 
     ability to design his own course by including text files, PPTs, videos, images and all sorts of media including
      hyperlinks. The software saves the file in it's own defined format and and can viewed on any Desktop with the Software installed.`,
     title: `Authoring System`,
