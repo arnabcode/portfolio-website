@@ -34,7 +34,7 @@ const Post = ({ frontmatter, excerpt, indexPage }) => {
         <>
           <article className="post-body">
             <div className="image-container">
-              <Image fluid={image.childImageSharp.fluid} className="img" />
+              {/* <Image fluid={image.childImageSharp.fluid} className="img" /> */}
 
               <Link to={`/posts/${slug}`} className="image-overlay">
                 <div className="link">
