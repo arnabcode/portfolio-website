@@ -1,8 +1,14 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/gatsby-config/
+ */
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby MDX Blog`,
-    description: `Awesome Blog built with Gatsby and MDX`,
-    titleTemplate: `%s | MDX Blog`,
+    title: `Welcome to my website`,
+    description: `Online representation of my life and work.`,
+    titleTemplate: `%s `,
     url: `https://gatsby-mdx-blog-course-project.netlify.app/`,
     image: `mainImg.png`,
     twitterUsername: `@john_smilga`,
@@ -35,23 +41,16 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [
           {
-            family: `Roboto`,
-            variants: [`400`, `500`, `700`],
+            family: `Roboto:wght@300;400;500;600;700`,
           },
           {
-            family: `Open Sans`,
+            family: `Open Sans:wght@100;300;400;500;600;700`,
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `gatsbyjs`,
       },
     },
   ],

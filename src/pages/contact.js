@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Banner from "../components/Banner"
 
-const contact = () => {
+const contact = ({ indexPage }) => {
   return (
     <Layout>
       <SEO title="Contact" />
@@ -39,9 +39,11 @@ const contact = () => {
             </button>
           </form>
         </article>
-        <article>
-          <Banner contact />
-        </article>
+        {!indexPage && (
+          <article>
+            <Banner contact />
+          </article>
+        )}
       </section>
     </Layout>
   )
