@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby MDX Blog`,
-    description: `Awesome Blog built with Gatsby and MDX`,
-    titleTemplate: `%s | MDX Blog`,
+    title: `Welcome to my website`,
+    description: `Online representation of my life and work.`,
+    titleTemplate: `%s `,
     url: `https://gatsby-mdx-blog-course-project.netlify.app/`,
     image: `mainImg.png`,
     twitterUsername: `@john_smilga`,
